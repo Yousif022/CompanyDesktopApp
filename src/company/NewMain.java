@@ -6,8 +6,10 @@
 package company;
 
 import Entity.Employee;
-import Forms.EmployeeForm;
+import Forms.DepartmentForm;
+
 import Forms.FrmMain;
+import Forms.Projectfrm;
 
 /**
  *
@@ -19,7 +21,7 @@ public class NewMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        FrmMain emp = new FrmMain();
+        Projectfrm emp = new Projectfrm();
         emp.setVisible(true);
     }
     

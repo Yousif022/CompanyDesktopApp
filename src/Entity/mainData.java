@@ -12,7 +12,7 @@ import javax.swing.JTable;
  * @author framawy
  */
 public interface mainData {
-    
+   //  crrud      = create , read , update , delete
     public void add();
     
     public void update();
@@ -26,7 +26,7 @@ public interface mainData {
     
     
     public void  getAllRows(JTable table);
-            
+             
     
     
     public void getOneRow(JTable table);

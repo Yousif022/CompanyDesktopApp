@@ -10,9 +10,9 @@ public  class Table{
         
         this.columns = columns;
         Items = new Object[0][columns];
-        
+         
     }
-    
+      
     public  void addNewRow(Object Row[]){
         //وضع البيانات في متغير مؤقت 
        Object TempItems[][] = Items;
